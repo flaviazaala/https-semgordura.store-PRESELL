@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  opacity: 0.9;
+  background-color: #fb156d;
+  padding: 10px 2%;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+header span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+body {
+  background-image: url(./images/fundo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+section {
+  margin-top: 30%;
+  background-color: #fb156d;
+  padding: 20px 2%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding:  0 2%;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.actionCta {
+  background: linear-gradient(90deg, rgba(250,183,12,1) 0%, rgba(255,251,95,1) 33%, rgba(250,183,12,1) 60%, rgba(255,251,95,1) 100%);  border-radius: 12px;
+  padding: 18px 25px;
+  width: 80%;
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.termos {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.termosLink{
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.termos a {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.termos a:hover {
+  text-decoration: underline;
+}
+
+.termos span {
+  color: rgb(0, 0, 238);
+  margin-left: .3rem;
+  margin-right: .3rem;
+  font-size: .7rem;
+}
+
+@media (min-width: 1280px) {
+
+  section {
+    margin-top: 20%;
+  }
+
+  .actionCta {
+    margin-top: 2rem;
+    width: 35%;
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  section {
+    margin-top: 40%;
+  }
+}
